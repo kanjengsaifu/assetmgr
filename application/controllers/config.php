@@ -90,15 +90,7 @@ class Config extends CI_Controller
 			$this->db->trans_complete();
 			
 			$this->userlist();
-			//echo "<div class=\"code\">person_id = $person_id</div>";
-			//echo "<div class=\"code\">insquery = $insquery</div>";
 		}
-		
-		
-		/*
-		insert into `gbj_people` (first_name,last_name ) values ('agus','wicaksono');
-		insert into gbj_employees (username,password,person_id,deleted) values ('agus',md5('test'),SELECT LAST_INSERT_ID(),0); 
-		*/
 		
 		
 	}
