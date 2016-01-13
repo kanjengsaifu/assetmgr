@@ -1,0 +1,35 @@
+#Searchresult {
+	margin-top:5px;
+	margin-bottom:8px;
+	padding:0px;
+  width:100%;
+}
+
+#Searchresult p { margin-bottom:1.4em;}
+
+#Searchresult dt {
+    font-weight:bold;
+}
+
+#Searchresult dd {
+    margin-left:25px;
+}
+
+#ImageContainer {
+    height:125px;
+    width:200px;
+    border:solid 1px #ccc;
+    margin-bottom:10px;
+}
+
+#ImageContainer img {display:none;}
+
+label {
+	float:left;
+	width:250px;
+	display:block;
+}
+
+form p {
+	clear:both;
+}
