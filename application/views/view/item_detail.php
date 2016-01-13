@@ -108,7 +108,8 @@ if(isset($item))
 				<b>Divisi</b>
 			</td>
 			<td style="padding-left:5px;color:#FF8000;">
-				<?php echo $this->Asset->get_div_info($item->AS_DIV)->DIV_DESC; ?>
+				<?php 
+				if($item->AS_DIV!="") echo $this->Asset->get_div_info($item->AS_DIV)->DIV_DESC; 
 				else echo "-";
 				?>
 			</td>
